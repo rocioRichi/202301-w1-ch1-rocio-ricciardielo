@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+   
+       }
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    color: blue;
+}
+input{    background-color:#255cb7;
+    color: white;
+    border: solid 3px;
+    border-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    height: 4em;
+    width: 15em;
+    font-size:large;
+}
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+#izquierda{
+  
+    background-color: rgb(144, 144, 190);
+
+}
+#central{
+   
+
+}
+#aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+img{
+    align-content: center;
+}

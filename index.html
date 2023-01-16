@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="air-pro.css">
+
+    <script type="text/javascript" src="/air-pro.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <input type="button" value="Identificate" onclick="userOrAdmin()" />
+    </header>
+
+    <main>
+        <section id="aside">
+
+            <input type="button" value="Vuelos Disponibles" onclick="availableFlights()" />
+            <input type="button" value="Coste Medio" onclick="averageCost()" />
+        </section>
+
+        <section id="central">
+            <img src="pics_airPro/azafata.png">
+        </section>
+
+        <section id="aside">
+            <input type="button" value="Vuelos con Escalas" onclick="withScale()"/>
+            <input type="button" value="Últimos vuelos del día" onclick="lastFlights()" />
+        </section>
+
+    </main>
+  
+</body>
+</html>
